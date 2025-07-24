@@ -15,7 +15,7 @@ spec:
         run.googleapis.com/default-url-disabled: 'true'
 #         TODO: change for your own vpc name
         run.googleapis.com/network-interfaces: '[{"network":"cnsrun-app", "subnetwork":"cnsrun-yamamoto-test-2024-05-423508"}]'
-#        run.googleapis.com/vpc-access-egress: all-traffic
+        run.googleapis.com/vpc-access-egress: all-traffic
     spec:
       containerConcurrency: 10
       timeoutSeconds: 300
