@@ -12,7 +12,7 @@ spec:
       annotations:
         autoscaling.knative.dev/maxScale: '2'
         run.googleapis.com/execution-environment: gen2
-#        run.googleapis.com/default-url-disabled: 'true'
+        run.googleapis.com/default-url-disabled: 'true'
 #         TODO: change for your own vpc name
 #        run.googleapis.com/network-interfaces: '[{"network":"cnsrun-app", "subnetwork":"cnsrun-yamamoto-test-2024-05-423508"}]'
 #        run.googleapis.com/vpc-access-egress: all-traffic
